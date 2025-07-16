@@ -1,0 +1,2392 @@
+﻿namespace Test_Burning
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variable del diseñador requerida.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén utilizando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido del método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.button1 = new System.Windows.Forms.Button();
+            this.lXY = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.holaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.holallaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tBarcode = new System.Windows.Forms.TextBox();
+            this.Zero = new System.Windows.Forms.Label();
+            this.tOP = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.rBitacora = new System.Windows.Forms.RichTextBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lWarning = new System.Windows.Forms.Label();
+            this.lRestante20 = new System.Windows.Forms.Label();
+            this.lN20 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.lRestante1 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.lN1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lNSerie1 = new System.Windows.Forms.Label();
+            this.lEstado1 = new System.Windows.Forms.Label();
+            this.lInfo1 = new System.Windows.Forms.Label();
+            this.lNSerie2 = new System.Windows.Forms.Label();
+            this.lNSerie3 = new System.Windows.Forms.Label();
+            this.lNSerie4 = new System.Windows.Forms.Label();
+            this.lNSerie5 = new System.Windows.Forms.Label();
+            this.lNSerie6 = new System.Windows.Forms.Label();
+            this.lNSerie7 = new System.Windows.Forms.Label();
+            this.lNSerie8 = new System.Windows.Forms.Label();
+            this.lNSerie9 = new System.Windows.Forms.Label();
+            this.lNSerie10 = new System.Windows.Forms.Label();
+            this.lNSerie11 = new System.Windows.Forms.Label();
+            this.lNSerie12 = new System.Windows.Forms.Label();
+            this.lNSerie13 = new System.Windows.Forms.Label();
+            this.lNSerie14 = new System.Windows.Forms.Label();
+            this.lNSerie15 = new System.Windows.Forms.Label();
+            this.lNSerie16 = new System.Windows.Forms.Label();
+            this.lNSerie17 = new System.Windows.Forms.Label();
+            this.lNSerie18 = new System.Windows.Forms.Label();
+            this.lNSerie19 = new System.Windows.Forms.Label();
+            this.lNSerie20 = new System.Windows.Forms.Label();
+            this.lN2 = new System.Windows.Forms.Label();
+            this.lN3 = new System.Windows.Forms.Label();
+            this.lN4 = new System.Windows.Forms.Label();
+            this.lN5 = new System.Windows.Forms.Label();
+            this.lN6 = new System.Windows.Forms.Label();
+            this.lN7 = new System.Windows.Forms.Label();
+            this.lN8 = new System.Windows.Forms.Label();
+            this.lN9 = new System.Windows.Forms.Label();
+            this.lN10 = new System.Windows.Forms.Label();
+            this.lN11 = new System.Windows.Forms.Label();
+            this.lN12 = new System.Windows.Forms.Label();
+            this.lN13 = new System.Windows.Forms.Label();
+            this.lN14 = new System.Windows.Forms.Label();
+            this.lN15 = new System.Windows.Forms.Label();
+            this.lN17 = new System.Windows.Forms.Label();
+            this.lN16 = new System.Windows.Forms.Label();
+            this.lN18 = new System.Windows.Forms.Label();
+            this.lN19 = new System.Windows.Forms.Label();
+            this.lRestante2 = new System.Windows.Forms.Label();
+            this.lRestante3 = new System.Windows.Forms.Label();
+            this.lRestante4 = new System.Windows.Forms.Label();
+            this.lRestante5 = new System.Windows.Forms.Label();
+            this.lRestante6 = new System.Windows.Forms.Label();
+            this.lRestante7 = new System.Windows.Forms.Label();
+            this.lRestante8 = new System.Windows.Forms.Label();
+            this.lRestante9 = new System.Windows.Forms.Label();
+            this.lRestante10 = new System.Windows.Forms.Label();
+            this.lRestante11 = new System.Windows.Forms.Label();
+            this.lRestante12 = new System.Windows.Forms.Label();
+            this.lRestante13 = new System.Windows.Forms.Label();
+            this.lRestante14 = new System.Windows.Forms.Label();
+            this.lRestante15 = new System.Windows.Forms.Label();
+            this.lRestante16 = new System.Windows.Forms.Label();
+            this.lRestante17 = new System.Windows.Forms.Label();
+            this.lRestante18 = new System.Windows.Forms.Label();
+            this.lRestante19 = new System.Windows.Forms.Label();
+            this.lEstado2 = new System.Windows.Forms.Label();
+            this.lEstado3 = new System.Windows.Forms.Label();
+            this.lEstado4 = new System.Windows.Forms.Label();
+            this.lEstado5 = new System.Windows.Forms.Label();
+            this.lEstado6 = new System.Windows.Forms.Label();
+            this.lEstado7 = new System.Windows.Forms.Label();
+            this.lEstado8 = new System.Windows.Forms.Label();
+            this.lEstado9 = new System.Windows.Forms.Label();
+            this.lEstado10 = new System.Windows.Forms.Label();
+            this.lEstado11 = new System.Windows.Forms.Label();
+            this.lEstado12 = new System.Windows.Forms.Label();
+            this.lEstado13 = new System.Windows.Forms.Label();
+            this.lEstado14 = new System.Windows.Forms.Label();
+            this.lEstado15 = new System.Windows.Forms.Label();
+            this.lEstado16 = new System.Windows.Forms.Label();
+            this.lEstado17 = new System.Windows.Forms.Label();
+            this.lEstado18 = new System.Windows.Forms.Label();
+            this.lEstado19 = new System.Windows.Forms.Label();
+            this.lEstado20 = new System.Windows.Forms.Label();
+            this.lInfo2 = new System.Windows.Forms.Label();
+            this.lInfo3 = new System.Windows.Forms.Label();
+            this.lInfo4 = new System.Windows.Forms.Label();
+            this.lInfo5 = new System.Windows.Forms.Label();
+            this.lInfo6 = new System.Windows.Forms.Label();
+            this.lInfo7 = new System.Windows.Forms.Label();
+            this.lInfo8 = new System.Windows.Forms.Label();
+            this.lInfo9 = new System.Windows.Forms.Label();
+            this.lInfo10 = new System.Windows.Forms.Label();
+            this.lInfo11 = new System.Windows.Forms.Label();
+            this.lInfo12 = new System.Windows.Forms.Label();
+            this.lInfo13 = new System.Windows.Forms.Label();
+            this.lInfo14 = new System.Windows.Forms.Label();
+            this.lInfo15 = new System.Windows.Forms.Label();
+            this.lInfo16 = new System.Windows.Forms.Label();
+            this.lInfo17 = new System.Windows.Forms.Label();
+            this.lInfo18 = new System.Windows.Forms.Label();
+            this.lInfo19 = new System.Windows.Forms.Label();
+            this.lInfo20 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lFila20 = new System.Windows.Forms.Label();
+            this.lPos20 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.lFila1 = new System.Windows.Forms.Label();
+            this.lPos1 = new System.Windows.Forms.Label();
+            this.lFila2 = new System.Windows.Forms.Label();
+            this.lFila3 = new System.Windows.Forms.Label();
+            this.lFila4 = new System.Windows.Forms.Label();
+            this.lFila7 = new System.Windows.Forms.Label();
+            this.lPos2 = new System.Windows.Forms.Label();
+            this.lFila5 = new System.Windows.Forms.Label();
+            this.lFila6 = new System.Windows.Forms.Label();
+            this.lFila8 = new System.Windows.Forms.Label();
+            this.lFila9 = new System.Windows.Forms.Label();
+            this.lFila10 = new System.Windows.Forms.Label();
+            this.lPos3 = new System.Windows.Forms.Label();
+            this.lPos4 = new System.Windows.Forms.Label();
+            this.lPos5 = new System.Windows.Forms.Label();
+            this.lPos6 = new System.Windows.Forms.Label();
+            this.lPos7 = new System.Windows.Forms.Label();
+            this.lPos8 = new System.Windows.Forms.Label();
+            this.lPos9 = new System.Windows.Forms.Label();
+            this.lFila11 = new System.Windows.Forms.Label();
+            this.lFila12 = new System.Windows.Forms.Label();
+            this.lFila13 = new System.Windows.Forms.Label();
+            this.lFila14 = new System.Windows.Forms.Label();
+            this.lFila15 = new System.Windows.Forms.Label();
+            this.lFila16 = new System.Windows.Forms.Label();
+            this.lFila17 = new System.Windows.Forms.Label();
+            this.lFila18 = new System.Windows.Forms.Label();
+            this.lFila19 = new System.Windows.Forms.Label();
+            this.lPos10 = new System.Windows.Forms.Label();
+            this.lPos11 = new System.Windows.Forms.Label();
+            this.lPos12 = new System.Windows.Forms.Label();
+            this.lPos13 = new System.Windows.Forms.Label();
+            this.lPos14 = new System.Windows.Forms.Label();
+            this.lPos15 = new System.Windows.Forms.Label();
+            this.lPos16 = new System.Windows.Forms.Label();
+            this.lPos17 = new System.Windows.Forms.Label();
+            this.lPos18 = new System.Windows.Forms.Label();
+            this.lPos19 = new System.Windows.Forms.Label();
+            this.fCarroElecPlusTabla = new Test_Burning.FCarroElecPlus();
+            this.fCarroElecTabla = new Test_Burning.FCarroElec();
+            this.fCarroTabla = new Test_Burning.FCarro();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1529, 592);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(43, 34);
+            this.button1.TabIndex = 344;
+            this.button1.TabStop = false;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lXY
+            // 
+            this.lXY.AutoSize = true;
+            this.lXY.Location = new System.Drawing.Point(1436, 592);
+            this.lXY.Name = "lXY";
+            this.lXY.Size = new System.Drawing.Size(10, 13);
+            this.lXY.TabIndex = 345;
+            this.lXY.Text = "-";
+            this.lXY.Visible = false;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Location = new System.Drawing.Point(1452, 592);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(10, 13);
+            this.label69.TabIndex = 346;
+            this.label69.Text = "-";
+            this.label69.Visible = false;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Location = new System.Drawing.Point(1468, 602);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(51, 13);
+            this.label70.TabIndex = 349;
+            this.label70.Text = "CARRO=";
+            this.label70.Visible = false;
+            // 
+            // holaToolStripMenuItem
+            // 
+            this.holaToolStripMenuItem.Name = "holaToolStripMenuItem";
+            this.holaToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.holaToolStripMenuItem.Text = "hola";
+            // 
+            // holallaToolStripMenuItem
+            // 
+            this.holallaToolStripMenuItem.Name = "holallaToolStripMenuItem";
+            this.holallaToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.holallaToolStripMenuItem.Text = "holalla";
+            // 
+            // tBarcode
+            // 
+            this.tBarcode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.tBarcode.Location = new System.Drawing.Point(1303, 695);
+            this.tBarcode.Name = "tBarcode";
+            this.tBarcode.Size = new System.Drawing.Size(269, 20);
+            this.tBarcode.TabIndex = 364;
+            this.tBarcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tBarcode_KeyDown);
+            this.tBarcode.Leave += new System.EventHandler(this.tBarcode_Leave);
+            // 
+            // Zero
+            // 
+            this.Zero.AutoSize = true;
+            this.Zero.Location = new System.Drawing.Point(1468, 602);
+            this.Zero.Name = "Zero";
+            this.Zero.Size = new System.Drawing.Size(51, 13);
+            this.Zero.TabIndex = 367;
+            this.Zero.Text = "CARRO=";
+            this.Zero.Visible = false;
+            // 
+            // tOP
+            // 
+            this.tOP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.tOP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tOP.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tOP.Location = new System.Drawing.Point(1514, 663);
+            this.tOP.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.tOP.Name = "tOP";
+            this.tOP.Size = new System.Drawing.Size(58, 31);
+            this.tOP.TabIndex = 370;
+            this.tOP.Text = "- - -";
+            this.tOP.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1418, 667);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(101, 25);
+            this.label2.TabIndex = 369;
+            this.label2.Text = "Operario:";
+            // 
+            // rBitacora
+            // 
+            this.rBitacora.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.rBitacora.Cursor = System.Windows.Forms.Cursors.No;
+            this.rBitacora.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBitacora.ForeColor = System.Drawing.SystemColors.Info;
+            this.rBitacora.Location = new System.Drawing.Point(4, 581);
+            this.rBitacora.MaximumSize = new System.Drawing.Size(1256, 600);
+            this.rBitacora.Name = "rBitacora";
+            this.rBitacora.ReadOnly = true;
+            this.rBitacora.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.rBitacora.Size = new System.Drawing.Size(1256, 139);
+            this.rBitacora.TabIndex = 381;
+            this.rBitacora.TabStop = false;
+            this.rBitacora.Text = "";
+            this.rBitacora.Click += new System.EventHandler(this.rBitacora_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
+            this.tableLayoutPanel1.ColumnCount = 9;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.1121F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.11099F));
+            this.tableLayoutPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(5, 5);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 199F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1570, 202);
+            this.tableLayoutPanel1.TabIndex = 383;
+            this.tableLayoutPanel1.Tag = "";
+            // 
+            // label15
+            // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label15.Image = ((System.Drawing.Image)(resources.GetObject("label15.Image")));
+            this.label15.Location = new System.Drawing.Point(1384, 653);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(39, 40);
+            this.label15.TabIndex = 368;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(1266, 685);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 34);
+            this.label1.TabIndex = 365;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lWarning
+            // 
+            this.lWarning.BackColor = System.Drawing.Color.Transparent;
+            this.lWarning.Image = ((System.Drawing.Image)(resources.GetObject("lWarning.Image")));
+            this.lWarning.Location = new System.Drawing.Point(709, 591);
+            this.lWarning.Name = "lWarning";
+            this.lWarning.Size = new System.Drawing.Size(536, 122);
+            this.lWarning.TabIndex = 390;
+            this.lWarning.Visible = false;
+            // 
+            // lRestante20
+            // 
+            this.lRestante20.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante20.Location = new System.Drawing.Point(358, 555);
+            this.lRestante20.Name = "lRestante20";
+            this.lRestante20.Size = new System.Drawing.Size(60, 17);
+            this.lRestante20.TabIndex = 458;
+            this.lRestante20.Text = "-";
+            // 
+            // lN20
+            // 
+            this.lN20.BackColor = System.Drawing.Color.LightBlue;
+            this.lN20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN20.Location = new System.Drawing.Point(329, 555);
+            this.lN20.Name = "lN20";
+            this.lN20.Size = new System.Drawing.Size(30, 17);
+            this.lN20.TabIndex = 424;
+            this.lN20.Text = "-";
+            // 
+            // label40
+            // 
+            this.label40.BackColor = System.Drawing.Color.SkyBlue;
+            this.label40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(1024, 215);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(548, 17);
+            this.label40.TabIndex = 399;
+            this.label40.Text = "Nº Serie";
+            // 
+            // label39
+            // 
+            this.label39.BackColor = System.Drawing.Color.SkyBlue;
+            this.label39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(566, 215);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(459, 17);
+            this.label39.TabIndex = 398;
+            this.label39.Text = "Info";
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.SkyBlue;
+            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(417, 215);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(150, 17);
+            this.label17.TabIndex = 396;
+            this.label17.Text = "Estado";
+            // 
+            // lRestante1
+            // 
+            this.lRestante1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante1.Location = new System.Drawing.Point(358, 232);
+            this.lRestante1.Name = "lRestante1";
+            this.lRestante1.Size = new System.Drawing.Size(60, 17);
+            this.lRestante1.TabIndex = 395;
+            this.lRestante1.Text = "1200\'";
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.SkyBlue;
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(358, 215);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(60, 17);
+            this.label13.TabIndex = 393;
+            this.label13.Text = "Restante";
+            // 
+            // lN1
+            // 
+            this.lN1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN1.Location = new System.Drawing.Point(329, 232);
+            this.lN1.Name = "lN1";
+            this.lN1.Size = new System.Drawing.Size(30, 17);
+            this.lN1.TabIndex = 394;
+            this.lN1.Text = "61";
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.SkyBlue;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(329, 215);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 17);
+            this.label3.TabIndex = 392;
+            this.label3.Text = "Nº";
+            // 
+            // lNSerie1
+            // 
+            this.lNSerie1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie1.Location = new System.Drawing.Point(1024, 232);
+            this.lNSerie1.Name = "lNSerie1";
+            this.lNSerie1.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie1.TabIndex = 397;
+            this.lNSerie1.Text = "(01)A02095(93)009(21)14130122(412)03037(10)204120";
+            // 
+            // lEstado1
+            // 
+            this.lEstado1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado1.Location = new System.Drawing.Point(417, 232);
+            this.lEstado1.Name = "lEstado1";
+            this.lEstado1.Size = new System.Drawing.Size(150, 17);
+            this.lEstado1.TabIndex = 400;
+            this.lEstado1.Text = "Testeando";
+            // 
+            // lInfo1
+            // 
+            this.lInfo1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo1.Location = new System.Drawing.Point(566, 232);
+            this.lInfo1.Name = "lInfo1";
+            this.lInfo1.Size = new System.Drawing.Size(459, 17);
+            this.lInfo1.TabIndex = 401;
+            this.lInfo1.Text = "-";
+            // 
+            // lNSerie2
+            // 
+            this.lNSerie2.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie2.Location = new System.Drawing.Point(1024, 249);
+            this.lNSerie2.Name = "lNSerie2";
+            this.lNSerie2.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie2.TabIndex = 402;
+            this.lNSerie2.Text = "-";
+            // 
+            // lNSerie3
+            // 
+            this.lNSerie3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie3.Location = new System.Drawing.Point(1024, 266);
+            this.lNSerie3.Name = "lNSerie3";
+            this.lNSerie3.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie3.TabIndex = 403;
+            this.lNSerie3.Text = "-";
+            // 
+            // lNSerie4
+            // 
+            this.lNSerie4.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie4.Location = new System.Drawing.Point(1024, 283);
+            this.lNSerie4.Name = "lNSerie4";
+            this.lNSerie4.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie4.TabIndex = 404;
+            this.lNSerie4.Text = "-";
+            // 
+            // lNSerie5
+            // 
+            this.lNSerie5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie5.Location = new System.Drawing.Point(1024, 300);
+            this.lNSerie5.Name = "lNSerie5";
+            this.lNSerie5.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie5.TabIndex = 405;
+            this.lNSerie5.Text = "-";
+            // 
+            // lNSerie6
+            // 
+            this.lNSerie6.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie6.Location = new System.Drawing.Point(1024, 317);
+            this.lNSerie6.Name = "lNSerie6";
+            this.lNSerie6.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie6.TabIndex = 406;
+            this.lNSerie6.Text = "-";
+            // 
+            // lNSerie7
+            // 
+            this.lNSerie7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie7.Location = new System.Drawing.Point(1024, 334);
+            this.lNSerie7.Name = "lNSerie7";
+            this.lNSerie7.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie7.TabIndex = 407;
+            this.lNSerie7.Text = "-";
+            // 
+            // lNSerie8
+            // 
+            this.lNSerie8.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie8.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie8.Location = new System.Drawing.Point(1024, 351);
+            this.lNSerie8.Name = "lNSerie8";
+            this.lNSerie8.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie8.TabIndex = 408;
+            this.lNSerie8.Text = "-";
+            // 
+            // lNSerie9
+            // 
+            this.lNSerie9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie9.Location = new System.Drawing.Point(1024, 368);
+            this.lNSerie9.Name = "lNSerie9";
+            this.lNSerie9.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie9.TabIndex = 409;
+            this.lNSerie9.Text = "-";
+            // 
+            // lNSerie10
+            // 
+            this.lNSerie10.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie10.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie10.Location = new System.Drawing.Point(1024, 385);
+            this.lNSerie10.Name = "lNSerie10";
+            this.lNSerie10.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie10.TabIndex = 410;
+            this.lNSerie10.Text = "-";
+            // 
+            // lNSerie11
+            // 
+            this.lNSerie11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie11.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie11.Location = new System.Drawing.Point(1024, 402);
+            this.lNSerie11.Name = "lNSerie11";
+            this.lNSerie11.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie11.TabIndex = 411;
+            this.lNSerie11.Text = "-";
+            // 
+            // lNSerie12
+            // 
+            this.lNSerie12.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie12.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie12.Location = new System.Drawing.Point(1024, 419);
+            this.lNSerie12.Name = "lNSerie12";
+            this.lNSerie12.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie12.TabIndex = 412;
+            this.lNSerie12.Text = "-";
+            // 
+            // lNSerie13
+            // 
+            this.lNSerie13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie13.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie13.Location = new System.Drawing.Point(1024, 436);
+            this.lNSerie13.Name = "lNSerie13";
+            this.lNSerie13.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie13.TabIndex = 413;
+            this.lNSerie13.Text = "-";
+            // 
+            // lNSerie14
+            // 
+            this.lNSerie14.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie14.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie14.Location = new System.Drawing.Point(1024, 453);
+            this.lNSerie14.Name = "lNSerie14";
+            this.lNSerie14.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie14.TabIndex = 414;
+            this.lNSerie14.Text = "-";
+            // 
+            // lNSerie15
+            // 
+            this.lNSerie15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie15.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie15.Location = new System.Drawing.Point(1024, 470);
+            this.lNSerie15.Name = "lNSerie15";
+            this.lNSerie15.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie15.TabIndex = 415;
+            this.lNSerie15.Text = "-";
+            // 
+            // lNSerie16
+            // 
+            this.lNSerie16.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie16.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie16.Location = new System.Drawing.Point(1024, 487);
+            this.lNSerie16.Name = "lNSerie16";
+            this.lNSerie16.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie16.TabIndex = 416;
+            this.lNSerie16.Text = "-";
+            // 
+            // lNSerie17
+            // 
+            this.lNSerie17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie17.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie17.Location = new System.Drawing.Point(1024, 504);
+            this.lNSerie17.Name = "lNSerie17";
+            this.lNSerie17.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie17.TabIndex = 417;
+            this.lNSerie17.Text = "-";
+            // 
+            // lNSerie18
+            // 
+            this.lNSerie18.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie18.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie18.Location = new System.Drawing.Point(1024, 521);
+            this.lNSerie18.Name = "lNSerie18";
+            this.lNSerie18.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie18.TabIndex = 418;
+            this.lNSerie18.Text = "-";
+            // 
+            // lNSerie19
+            // 
+            this.lNSerie19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lNSerie19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie19.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie19.Location = new System.Drawing.Point(1024, 538);
+            this.lNSerie19.Name = "lNSerie19";
+            this.lNSerie19.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie19.TabIndex = 419;
+            this.lNSerie19.Text = "-";
+            // 
+            // lNSerie20
+            // 
+            this.lNSerie20.BackColor = System.Drawing.Color.LightBlue;
+            this.lNSerie20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lNSerie20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNSerie20.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lNSerie20.Location = new System.Drawing.Point(1024, 555);
+            this.lNSerie20.Name = "lNSerie20";
+            this.lNSerie20.Size = new System.Drawing.Size(548, 17);
+            this.lNSerie20.TabIndex = 420;
+            this.lNSerie20.Text = "-";
+            // 
+            // lN2
+            // 
+            this.lN2.BackColor = System.Drawing.Color.LightBlue;
+            this.lN2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN2.Location = new System.Drawing.Point(329, 249);
+            this.lN2.Name = "lN2";
+            this.lN2.Size = new System.Drawing.Size(30, 17);
+            this.lN2.TabIndex = 421;
+            this.lN2.Text = "-";
+            // 
+            // lN3
+            // 
+            this.lN3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN3.Location = new System.Drawing.Point(329, 266);
+            this.lN3.Name = "lN3";
+            this.lN3.Size = new System.Drawing.Size(30, 17);
+            this.lN3.TabIndex = 422;
+            this.lN3.Text = "-";
+            // 
+            // lN4
+            // 
+            this.lN4.BackColor = System.Drawing.Color.LightBlue;
+            this.lN4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN4.Location = new System.Drawing.Point(329, 283);
+            this.lN4.Name = "lN4";
+            this.lN4.Size = new System.Drawing.Size(30, 17);
+            this.lN4.TabIndex = 423;
+            this.lN4.Text = "-";
+            // 
+            // lN5
+            // 
+            this.lN5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN5.Location = new System.Drawing.Point(329, 300);
+            this.lN5.Name = "lN5";
+            this.lN5.Size = new System.Drawing.Size(30, 17);
+            this.lN5.TabIndex = 426;
+            this.lN5.Text = "-";
+            // 
+            // lN6
+            // 
+            this.lN6.BackColor = System.Drawing.Color.LightBlue;
+            this.lN6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN6.Location = new System.Drawing.Point(329, 317);
+            this.lN6.Name = "lN6";
+            this.lN6.Size = new System.Drawing.Size(30, 17);
+            this.lN6.TabIndex = 427;
+            this.lN6.Text = "-";
+            // 
+            // lN7
+            // 
+            this.lN7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN7.Location = new System.Drawing.Point(329, 334);
+            this.lN7.Name = "lN7";
+            this.lN7.Size = new System.Drawing.Size(30, 17);
+            this.lN7.TabIndex = 428;
+            this.lN7.Text = "-";
+            // 
+            // lN8
+            // 
+            this.lN8.BackColor = System.Drawing.Color.LightBlue;
+            this.lN8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN8.Location = new System.Drawing.Point(329, 351);
+            this.lN8.Name = "lN8";
+            this.lN8.Size = new System.Drawing.Size(30, 17);
+            this.lN8.TabIndex = 429;
+            this.lN8.Text = "-";
+            // 
+            // lN9
+            // 
+            this.lN9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN9.Location = new System.Drawing.Point(329, 368);
+            this.lN9.Name = "lN9";
+            this.lN9.Size = new System.Drawing.Size(30, 17);
+            this.lN9.TabIndex = 430;
+            this.lN9.Text = "-";
+            // 
+            // lN10
+            // 
+            this.lN10.BackColor = System.Drawing.Color.LightBlue;
+            this.lN10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN10.Location = new System.Drawing.Point(329, 385);
+            this.lN10.Name = "lN10";
+            this.lN10.Size = new System.Drawing.Size(30, 17);
+            this.lN10.TabIndex = 431;
+            this.lN10.Text = "-";
+            // 
+            // lN11
+            // 
+            this.lN11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN11.Location = new System.Drawing.Point(329, 402);
+            this.lN11.Name = "lN11";
+            this.lN11.Size = new System.Drawing.Size(30, 17);
+            this.lN11.TabIndex = 432;
+            this.lN11.Text = "-";
+            // 
+            // lN12
+            // 
+            this.lN12.BackColor = System.Drawing.Color.LightBlue;
+            this.lN12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN12.Location = new System.Drawing.Point(329, 419);
+            this.lN12.Name = "lN12";
+            this.lN12.Size = new System.Drawing.Size(30, 17);
+            this.lN12.TabIndex = 433;
+            this.lN12.Text = "-";
+            // 
+            // lN13
+            // 
+            this.lN13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN13.Location = new System.Drawing.Point(329, 436);
+            this.lN13.Name = "lN13";
+            this.lN13.Size = new System.Drawing.Size(30, 17);
+            this.lN13.TabIndex = 434;
+            this.lN13.Text = "-";
+            // 
+            // lN14
+            // 
+            this.lN14.BackColor = System.Drawing.Color.LightBlue;
+            this.lN14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN14.Location = new System.Drawing.Point(329, 453);
+            this.lN14.Name = "lN14";
+            this.lN14.Size = new System.Drawing.Size(30, 17);
+            this.lN14.TabIndex = 425;
+            this.lN14.Text = "-";
+            // 
+            // lN15
+            // 
+            this.lN15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN15.Location = new System.Drawing.Point(329, 470);
+            this.lN15.Name = "lN15";
+            this.lN15.Size = new System.Drawing.Size(30, 17);
+            this.lN15.TabIndex = 436;
+            this.lN15.Text = "-";
+            // 
+            // lN17
+            // 
+            this.lN17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN17.Location = new System.Drawing.Point(329, 504);
+            this.lN17.Name = "lN17";
+            this.lN17.Size = new System.Drawing.Size(30, 17);
+            this.lN17.TabIndex = 437;
+            this.lN17.Text = "-";
+            // 
+            // lN16
+            // 
+            this.lN16.BackColor = System.Drawing.Color.LightBlue;
+            this.lN16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN16.Location = new System.Drawing.Point(329, 487);
+            this.lN16.Name = "lN16";
+            this.lN16.Size = new System.Drawing.Size(30, 17);
+            this.lN16.TabIndex = 438;
+            this.lN16.Text = "-";
+            // 
+            // lN18
+            // 
+            this.lN18.BackColor = System.Drawing.Color.LightBlue;
+            this.lN18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN18.Location = new System.Drawing.Point(329, 521);
+            this.lN18.Name = "lN18";
+            this.lN18.Size = new System.Drawing.Size(30, 17);
+            this.lN18.TabIndex = 439;
+            this.lN18.Text = "-";
+            // 
+            // lN19
+            // 
+            this.lN19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lN19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lN19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lN19.Location = new System.Drawing.Point(329, 538);
+            this.lN19.Name = "lN19";
+            this.lN19.Size = new System.Drawing.Size(30, 17);
+            this.lN19.TabIndex = 440;
+            this.lN19.Text = "-";
+            // 
+            // lRestante2
+            // 
+            this.lRestante2.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante2.Location = new System.Drawing.Point(358, 249);
+            this.lRestante2.Name = "lRestante2";
+            this.lRestante2.Size = new System.Drawing.Size(60, 17);
+            this.lRestante2.TabIndex = 442;
+            this.lRestante2.Text = "-";
+            // 
+            // lRestante3
+            // 
+            this.lRestante3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante3.Location = new System.Drawing.Point(358, 266);
+            this.lRestante3.Name = "lRestante3";
+            this.lRestante3.Size = new System.Drawing.Size(60, 17);
+            this.lRestante3.TabIndex = 441;
+            this.lRestante3.Text = "-";
+            // 
+            // lRestante4
+            // 
+            this.lRestante4.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante4.Location = new System.Drawing.Point(358, 283);
+            this.lRestante4.Name = "lRestante4";
+            this.lRestante4.Size = new System.Drawing.Size(60, 17);
+            this.lRestante4.TabIndex = 435;
+            this.lRestante4.Text = "-";
+            // 
+            // lRestante5
+            // 
+            this.lRestante5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante5.Location = new System.Drawing.Point(358, 300);
+            this.lRestante5.Name = "lRestante5";
+            this.lRestante5.Size = new System.Drawing.Size(60, 17);
+            this.lRestante5.TabIndex = 444;
+            this.lRestante5.Text = "-";
+            // 
+            // lRestante6
+            // 
+            this.lRestante6.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante6.Location = new System.Drawing.Point(358, 317);
+            this.lRestante6.Name = "lRestante6";
+            this.lRestante6.Size = new System.Drawing.Size(60, 17);
+            this.lRestante6.TabIndex = 445;
+            this.lRestante6.Text = "-";
+            // 
+            // lRestante7
+            // 
+            this.lRestante7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante7.Location = new System.Drawing.Point(358, 334);
+            this.lRestante7.Name = "lRestante7";
+            this.lRestante7.Size = new System.Drawing.Size(60, 17);
+            this.lRestante7.TabIndex = 446;
+            this.lRestante7.Text = "-";
+            // 
+            // lRestante8
+            // 
+            this.lRestante8.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante8.Location = new System.Drawing.Point(358, 351);
+            this.lRestante8.Name = "lRestante8";
+            this.lRestante8.Size = new System.Drawing.Size(60, 17);
+            this.lRestante8.TabIndex = 447;
+            this.lRestante8.Text = "-";
+            // 
+            // lRestante9
+            // 
+            this.lRestante9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante9.Location = new System.Drawing.Point(358, 368);
+            this.lRestante9.Name = "lRestante9";
+            this.lRestante9.Size = new System.Drawing.Size(60, 17);
+            this.lRestante9.TabIndex = 448;
+            this.lRestante9.Text = "-";
+            // 
+            // lRestante10
+            // 
+            this.lRestante10.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante10.Location = new System.Drawing.Point(358, 385);
+            this.lRestante10.Name = "lRestante10";
+            this.lRestante10.Size = new System.Drawing.Size(60, 17);
+            this.lRestante10.TabIndex = 449;
+            this.lRestante10.Text = "-";
+            // 
+            // lRestante11
+            // 
+            this.lRestante11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante11.Location = new System.Drawing.Point(358, 402);
+            this.lRestante11.Name = "lRestante11";
+            this.lRestante11.Size = new System.Drawing.Size(60, 17);
+            this.lRestante11.TabIndex = 450;
+            this.lRestante11.Text = "-";
+            // 
+            // lRestante12
+            // 
+            this.lRestante12.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante12.Location = new System.Drawing.Point(358, 419);
+            this.lRestante12.Name = "lRestante12";
+            this.lRestante12.Size = new System.Drawing.Size(60, 17);
+            this.lRestante12.TabIndex = 451;
+            this.lRestante12.Text = "-";
+            // 
+            // lRestante13
+            // 
+            this.lRestante13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante13.Location = new System.Drawing.Point(358, 436);
+            this.lRestante13.Name = "lRestante13";
+            this.lRestante13.Size = new System.Drawing.Size(60, 17);
+            this.lRestante13.TabIndex = 452;
+            this.lRestante13.Text = "-";
+            // 
+            // lRestante14
+            // 
+            this.lRestante14.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante14.Location = new System.Drawing.Point(358, 453);
+            this.lRestante14.Name = "lRestante14";
+            this.lRestante14.Size = new System.Drawing.Size(60, 17);
+            this.lRestante14.TabIndex = 453;
+            this.lRestante14.Text = "-";
+            // 
+            // lRestante15
+            // 
+            this.lRestante15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante15.Location = new System.Drawing.Point(358, 470);
+            this.lRestante15.Name = "lRestante15";
+            this.lRestante15.Size = new System.Drawing.Size(60, 17);
+            this.lRestante15.TabIndex = 454;
+            this.lRestante15.Text = "-";
+            // 
+            // lRestante16
+            // 
+            this.lRestante16.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante16.Location = new System.Drawing.Point(358, 487);
+            this.lRestante16.Name = "lRestante16";
+            this.lRestante16.Size = new System.Drawing.Size(60, 17);
+            this.lRestante16.TabIndex = 443;
+            this.lRestante16.Text = "-";
+            // 
+            // lRestante17
+            // 
+            this.lRestante17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante17.Location = new System.Drawing.Point(358, 504);
+            this.lRestante17.Name = "lRestante17";
+            this.lRestante17.Size = new System.Drawing.Size(60, 17);
+            this.lRestante17.TabIndex = 456;
+            this.lRestante17.Text = "-";
+            // 
+            // lRestante18
+            // 
+            this.lRestante18.BackColor = System.Drawing.Color.LightBlue;
+            this.lRestante18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante18.Location = new System.Drawing.Point(358, 521);
+            this.lRestante18.Name = "lRestante18";
+            this.lRestante18.Size = new System.Drawing.Size(60, 17);
+            this.lRestante18.TabIndex = 455;
+            this.lRestante18.Text = "-";
+            // 
+            // lRestante19
+            // 
+            this.lRestante19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lRestante19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lRestante19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lRestante19.Location = new System.Drawing.Point(358, 538);
+            this.lRestante19.Name = "lRestante19";
+            this.lRestante19.Size = new System.Drawing.Size(60, 17);
+            this.lRestante19.TabIndex = 457;
+            this.lRestante19.Text = "-";
+            // 
+            // lEstado2
+            // 
+            this.lEstado2.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado2.Location = new System.Drawing.Point(417, 249);
+            this.lEstado2.Name = "lEstado2";
+            this.lEstado2.Size = new System.Drawing.Size(150, 17);
+            this.lEstado2.TabIndex = 459;
+            this.lEstado2.Text = "-";
+            // 
+            // lEstado3
+            // 
+            this.lEstado3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado3.Location = new System.Drawing.Point(417, 266);
+            this.lEstado3.Name = "lEstado3";
+            this.lEstado3.Size = new System.Drawing.Size(150, 17);
+            this.lEstado3.TabIndex = 460;
+            this.lEstado3.Text = "-";
+            // 
+            // lEstado4
+            // 
+            this.lEstado4.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado4.Location = new System.Drawing.Point(417, 283);
+            this.lEstado4.Name = "lEstado4";
+            this.lEstado4.Size = new System.Drawing.Size(150, 17);
+            this.lEstado4.TabIndex = 461;
+            this.lEstado4.Text = "-";
+            // 
+            // lEstado5
+            // 
+            this.lEstado5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado5.Location = new System.Drawing.Point(417, 300);
+            this.lEstado5.Name = "lEstado5";
+            this.lEstado5.Size = new System.Drawing.Size(150, 17);
+            this.lEstado5.TabIndex = 462;
+            this.lEstado5.Text = "-";
+            // 
+            // lEstado6
+            // 
+            this.lEstado6.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado6.Location = new System.Drawing.Point(417, 317);
+            this.lEstado6.Name = "lEstado6";
+            this.lEstado6.Size = new System.Drawing.Size(150, 17);
+            this.lEstado6.TabIndex = 463;
+            this.lEstado6.Text = "-";
+            // 
+            // lEstado7
+            // 
+            this.lEstado7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado7.Location = new System.Drawing.Point(417, 334);
+            this.lEstado7.Name = "lEstado7";
+            this.lEstado7.Size = new System.Drawing.Size(150, 17);
+            this.lEstado7.TabIndex = 464;
+            this.lEstado7.Text = "-";
+            // 
+            // lEstado8
+            // 
+            this.lEstado8.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado8.Location = new System.Drawing.Point(417, 351);
+            this.lEstado8.Name = "lEstado8";
+            this.lEstado8.Size = new System.Drawing.Size(150, 17);
+            this.lEstado8.TabIndex = 465;
+            this.lEstado8.Text = "-";
+            // 
+            // lEstado9
+            // 
+            this.lEstado9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado9.Location = new System.Drawing.Point(417, 368);
+            this.lEstado9.Name = "lEstado9";
+            this.lEstado9.Size = new System.Drawing.Size(150, 17);
+            this.lEstado9.TabIndex = 466;
+            this.lEstado9.Text = "-";
+            // 
+            // lEstado10
+            // 
+            this.lEstado10.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado10.Location = new System.Drawing.Point(417, 385);
+            this.lEstado10.Name = "lEstado10";
+            this.lEstado10.Size = new System.Drawing.Size(150, 17);
+            this.lEstado10.TabIndex = 467;
+            this.lEstado10.Text = "-";
+            // 
+            // lEstado11
+            // 
+            this.lEstado11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado11.Location = new System.Drawing.Point(417, 402);
+            this.lEstado11.Name = "lEstado11";
+            this.lEstado11.Size = new System.Drawing.Size(150, 17);
+            this.lEstado11.TabIndex = 468;
+            this.lEstado11.Text = "-";
+            // 
+            // lEstado12
+            // 
+            this.lEstado12.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado12.Location = new System.Drawing.Point(417, 419);
+            this.lEstado12.Name = "lEstado12";
+            this.lEstado12.Size = new System.Drawing.Size(150, 17);
+            this.lEstado12.TabIndex = 469;
+            this.lEstado12.Text = "-";
+            // 
+            // lEstado13
+            // 
+            this.lEstado13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado13.Location = new System.Drawing.Point(417, 436);
+            this.lEstado13.Name = "lEstado13";
+            this.lEstado13.Size = new System.Drawing.Size(150, 17);
+            this.lEstado13.TabIndex = 470;
+            this.lEstado13.Text = "-";
+            // 
+            // lEstado14
+            // 
+            this.lEstado14.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado14.Location = new System.Drawing.Point(417, 453);
+            this.lEstado14.Name = "lEstado14";
+            this.lEstado14.Size = new System.Drawing.Size(150, 17);
+            this.lEstado14.TabIndex = 471;
+            this.lEstado14.Text = "-";
+            // 
+            // lEstado15
+            // 
+            this.lEstado15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado15.Location = new System.Drawing.Point(417, 470);
+            this.lEstado15.Name = "lEstado15";
+            this.lEstado15.Size = new System.Drawing.Size(150, 17);
+            this.lEstado15.TabIndex = 472;
+            this.lEstado15.Text = "-";
+            // 
+            // lEstado16
+            // 
+            this.lEstado16.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado16.Location = new System.Drawing.Point(417, 487);
+            this.lEstado16.Name = "lEstado16";
+            this.lEstado16.Size = new System.Drawing.Size(150, 17);
+            this.lEstado16.TabIndex = 473;
+            this.lEstado16.Text = "-";
+            // 
+            // lEstado17
+            // 
+            this.lEstado17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado17.Location = new System.Drawing.Point(417, 504);
+            this.lEstado17.Name = "lEstado17";
+            this.lEstado17.Size = new System.Drawing.Size(150, 17);
+            this.lEstado17.TabIndex = 474;
+            this.lEstado17.Text = "-";
+            // 
+            // lEstado18
+            // 
+            this.lEstado18.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado18.Location = new System.Drawing.Point(417, 521);
+            this.lEstado18.Name = "lEstado18";
+            this.lEstado18.Size = new System.Drawing.Size(150, 17);
+            this.lEstado18.TabIndex = 475;
+            this.lEstado18.Text = "-";
+            // 
+            // lEstado19
+            // 
+            this.lEstado19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lEstado19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado19.Location = new System.Drawing.Point(417, 538);
+            this.lEstado19.Name = "lEstado19";
+            this.lEstado19.Size = new System.Drawing.Size(150, 17);
+            this.lEstado19.TabIndex = 476;
+            this.lEstado19.Text = "-";
+            // 
+            // lEstado20
+            // 
+            this.lEstado20.BackColor = System.Drawing.Color.LightBlue;
+            this.lEstado20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lEstado20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEstado20.Location = new System.Drawing.Point(417, 555);
+            this.lEstado20.Name = "lEstado20";
+            this.lEstado20.Size = new System.Drawing.Size(150, 17);
+            this.lEstado20.TabIndex = 477;
+            this.lEstado20.Text = "-";
+            // 
+            // lInfo2
+            // 
+            this.lInfo2.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo2.Location = new System.Drawing.Point(566, 249);
+            this.lInfo2.Name = "lInfo2";
+            this.lInfo2.Size = new System.Drawing.Size(459, 17);
+            this.lInfo2.TabIndex = 478;
+            this.lInfo2.Text = "-";
+            // 
+            // lInfo3
+            // 
+            this.lInfo3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo3.Location = new System.Drawing.Point(566, 266);
+            this.lInfo3.Name = "lInfo3";
+            this.lInfo3.Size = new System.Drawing.Size(459, 17);
+            this.lInfo3.TabIndex = 479;
+            this.lInfo3.Text = "-";
+            // 
+            // lInfo4
+            // 
+            this.lInfo4.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo4.Location = new System.Drawing.Point(566, 283);
+            this.lInfo4.Name = "lInfo4";
+            this.lInfo4.Size = new System.Drawing.Size(459, 17);
+            this.lInfo4.TabIndex = 480;
+            this.lInfo4.Text = "-";
+            // 
+            // lInfo5
+            // 
+            this.lInfo5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo5.Location = new System.Drawing.Point(566, 300);
+            this.lInfo5.Name = "lInfo5";
+            this.lInfo5.Size = new System.Drawing.Size(459, 17);
+            this.lInfo5.TabIndex = 481;
+            this.lInfo5.Text = "-";
+            // 
+            // lInfo6
+            // 
+            this.lInfo6.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo6.Location = new System.Drawing.Point(566, 317);
+            this.lInfo6.Name = "lInfo6";
+            this.lInfo6.Size = new System.Drawing.Size(459, 17);
+            this.lInfo6.TabIndex = 482;
+            this.lInfo6.Text = "-";
+            // 
+            // lInfo7
+            // 
+            this.lInfo7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo7.Location = new System.Drawing.Point(566, 334);
+            this.lInfo7.Name = "lInfo7";
+            this.lInfo7.Size = new System.Drawing.Size(459, 17);
+            this.lInfo7.TabIndex = 483;
+            this.lInfo7.Text = "-";
+            // 
+            // lInfo8
+            // 
+            this.lInfo8.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo8.Location = new System.Drawing.Point(566, 351);
+            this.lInfo8.Name = "lInfo8";
+            this.lInfo8.Size = new System.Drawing.Size(459, 17);
+            this.lInfo8.TabIndex = 484;
+            this.lInfo8.Text = "-";
+            // 
+            // lInfo9
+            // 
+            this.lInfo9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo9.Location = new System.Drawing.Point(566, 368);
+            this.lInfo9.Name = "lInfo9";
+            this.lInfo9.Size = new System.Drawing.Size(459, 17);
+            this.lInfo9.TabIndex = 485;
+            this.lInfo9.Text = "-";
+            // 
+            // lInfo10
+            // 
+            this.lInfo10.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo10.Location = new System.Drawing.Point(566, 385);
+            this.lInfo10.Name = "lInfo10";
+            this.lInfo10.Size = new System.Drawing.Size(459, 17);
+            this.lInfo10.TabIndex = 486;
+            this.lInfo10.Text = "-";
+            // 
+            // lInfo11
+            // 
+            this.lInfo11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo11.Location = new System.Drawing.Point(566, 402);
+            this.lInfo11.Name = "lInfo11";
+            this.lInfo11.Size = new System.Drawing.Size(459, 17);
+            this.lInfo11.TabIndex = 487;
+            this.lInfo11.Text = "-";
+            // 
+            // lInfo12
+            // 
+            this.lInfo12.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo12.Location = new System.Drawing.Point(566, 419);
+            this.lInfo12.Name = "lInfo12";
+            this.lInfo12.Size = new System.Drawing.Size(459, 17);
+            this.lInfo12.TabIndex = 488;
+            this.lInfo12.Text = "-";
+            // 
+            // lInfo13
+            // 
+            this.lInfo13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo13.Location = new System.Drawing.Point(566, 436);
+            this.lInfo13.Name = "lInfo13";
+            this.lInfo13.Size = new System.Drawing.Size(459, 17);
+            this.lInfo13.TabIndex = 489;
+            this.lInfo13.Text = "-";
+            // 
+            // lInfo14
+            // 
+            this.lInfo14.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo14.Location = new System.Drawing.Point(566, 453);
+            this.lInfo14.Name = "lInfo14";
+            this.lInfo14.Size = new System.Drawing.Size(459, 17);
+            this.lInfo14.TabIndex = 490;
+            this.lInfo14.Text = "-";
+            // 
+            // lInfo15
+            // 
+            this.lInfo15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo15.Location = new System.Drawing.Point(566, 470);
+            this.lInfo15.Name = "lInfo15";
+            this.lInfo15.Size = new System.Drawing.Size(459, 17);
+            this.lInfo15.TabIndex = 491;
+            this.lInfo15.Text = "-";
+            // 
+            // lInfo16
+            // 
+            this.lInfo16.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo16.Location = new System.Drawing.Point(566, 487);
+            this.lInfo16.Name = "lInfo16";
+            this.lInfo16.Size = new System.Drawing.Size(459, 17);
+            this.lInfo16.TabIndex = 492;
+            this.lInfo16.Text = "-";
+            // 
+            // lInfo17
+            // 
+            this.lInfo17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo17.Location = new System.Drawing.Point(566, 504);
+            this.lInfo17.Name = "lInfo17";
+            this.lInfo17.Size = new System.Drawing.Size(459, 17);
+            this.lInfo17.TabIndex = 493;
+            this.lInfo17.Text = "-";
+            // 
+            // lInfo18
+            // 
+            this.lInfo18.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo18.Location = new System.Drawing.Point(566, 521);
+            this.lInfo18.Name = "lInfo18";
+            this.lInfo18.Size = new System.Drawing.Size(459, 17);
+            this.lInfo18.TabIndex = 494;
+            this.lInfo18.Text = "-";
+            // 
+            // lInfo19
+            // 
+            this.lInfo19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lInfo19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo19.Location = new System.Drawing.Point(566, 538);
+            this.lInfo19.Name = "lInfo19";
+            this.lInfo19.Size = new System.Drawing.Size(459, 17);
+            this.lInfo19.TabIndex = 495;
+            this.lInfo19.Text = "-";
+            // 
+            // lInfo20
+            // 
+            this.lInfo20.BackColor = System.Drawing.Color.LightBlue;
+            this.lInfo20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lInfo20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lInfo20.Location = new System.Drawing.Point(566, 555);
+            this.lInfo20.Name = "lInfo20";
+            this.lInfo20.Size = new System.Drawing.Size(459, 17);
+            this.lInfo20.TabIndex = 496;
+            this.lInfo20.Text = "-";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.SkyBlue;
+            this.label5.Location = new System.Drawing.Point(5, 210);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(1570, 368);
+            this.label5.TabIndex = 497;
+            // 
+            // lFila20
+            // 
+            this.lFila20.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila20.Location = new System.Drawing.Point(271, 555);
+            this.lFila20.Name = "lFila20";
+            this.lFila20.Size = new System.Drawing.Size(30, 17);
+            this.lFila20.TabIndex = 539;
+            this.lFila20.Text = "5";
+            // 
+            // lPos20
+            // 
+            this.lPos20.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos20.Location = new System.Drawing.Point(300, 555);
+            this.lPos20.Name = "lPos20";
+            this.lPos20.Size = new System.Drawing.Size(30, 17);
+            this.lPos20.TabIndex = 538;
+            this.lPos20.Text = "4";
+            // 
+            // label36
+            // 
+            this.label36.BackColor = System.Drawing.Color.SkyBlue;
+            this.label36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(300, 215);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(30, 17);
+            this.label36.TabIndex = 499;
+            this.label36.Text = "Pos";
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.SkyBlue;
+            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(271, 215);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(30, 17);
+            this.label19.TabIndex = 498;
+            this.label19.Text = "Fila";
+            // 
+            // lFila1
+            // 
+            this.lFila1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila1.Location = new System.Drawing.Point(271, 232);
+            this.lFila1.Name = "lFila1";
+            this.lFila1.Size = new System.Drawing.Size(30, 17);
+            this.lFila1.TabIndex = 500;
+            this.lFila1.Text = "1";
+            // 
+            // lPos1
+            // 
+            this.lPos1.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos1.Location = new System.Drawing.Point(300, 232);
+            this.lPos1.Name = "lPos1";
+            this.lPos1.Size = new System.Drawing.Size(30, 17);
+            this.lPos1.TabIndex = 501;
+            this.lPos1.Text = "1";
+            // 
+            // lFila2
+            // 
+            this.lFila2.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila2.Location = new System.Drawing.Point(271, 249);
+            this.lFila2.Name = "lFila2";
+            this.lFila2.Size = new System.Drawing.Size(30, 17);
+            this.lFila2.TabIndex = 502;
+            this.lFila2.Text = "1";
+            // 
+            // lFila3
+            // 
+            this.lFila3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila3.Location = new System.Drawing.Point(271, 266);
+            this.lFila3.Name = "lFila3";
+            this.lFila3.Size = new System.Drawing.Size(30, 17);
+            this.lFila3.TabIndex = 503;
+            this.lFila3.Text = "1";
+            // 
+            // lFila4
+            // 
+            this.lFila4.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila4.Location = new System.Drawing.Point(271, 283);
+            this.lFila4.Name = "lFila4";
+            this.lFila4.Size = new System.Drawing.Size(30, 17);
+            this.lFila4.TabIndex = 504;
+            this.lFila4.Text = "1";
+            // 
+            // lFila7
+            // 
+            this.lFila7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila7.Location = new System.Drawing.Point(271, 334);
+            this.lFila7.Name = "lFila7";
+            this.lFila7.Size = new System.Drawing.Size(30, 17);
+            this.lFila7.TabIndex = 505;
+            this.lFila7.Text = "2";
+            // 
+            // lPos2
+            // 
+            this.lPos2.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos2.Location = new System.Drawing.Point(300, 249);
+            this.lPos2.Name = "lPos2";
+            this.lPos2.Size = new System.Drawing.Size(30, 17);
+            this.lPos2.TabIndex = 506;
+            this.lPos2.Text = "2";
+            // 
+            // lFila5
+            // 
+            this.lFila5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila5.Location = new System.Drawing.Point(271, 300);
+            this.lFila5.Name = "lFila5";
+            this.lFila5.Size = new System.Drawing.Size(30, 17);
+            this.lFila5.TabIndex = 507;
+            this.lFila5.Text = "2";
+            // 
+            // lFila6
+            // 
+            this.lFila6.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila6.Location = new System.Drawing.Point(271, 317);
+            this.lFila6.Name = "lFila6";
+            this.lFila6.Size = new System.Drawing.Size(30, 17);
+            this.lFila6.TabIndex = 508;
+            this.lFila6.Text = "2";
+            // 
+            // lFila8
+            // 
+            this.lFila8.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila8.Location = new System.Drawing.Point(271, 351);
+            this.lFila8.Name = "lFila8";
+            this.lFila8.Size = new System.Drawing.Size(30, 17);
+            this.lFila8.TabIndex = 509;
+            this.lFila8.Text = "2";
+            // 
+            // lFila9
+            // 
+            this.lFila9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila9.Location = new System.Drawing.Point(271, 368);
+            this.lFila9.Name = "lFila9";
+            this.lFila9.Size = new System.Drawing.Size(30, 17);
+            this.lFila9.TabIndex = 510;
+            this.lFila9.Text = "3";
+            // 
+            // lFila10
+            // 
+            this.lFila10.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila10.Location = new System.Drawing.Point(271, 385);
+            this.lFila10.Name = "lFila10";
+            this.lFila10.Size = new System.Drawing.Size(30, 17);
+            this.lFila10.TabIndex = 511;
+            this.lFila10.Text = "3";
+            // 
+            // lPos3
+            // 
+            this.lPos3.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos3.Location = new System.Drawing.Point(300, 266);
+            this.lPos3.Name = "lPos3";
+            this.lPos3.Size = new System.Drawing.Size(30, 17);
+            this.lPos3.TabIndex = 512;
+            this.lPos3.Text = "3";
+            // 
+            // lPos4
+            // 
+            this.lPos4.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos4.Location = new System.Drawing.Point(300, 283);
+            this.lPos4.Name = "lPos4";
+            this.lPos4.Size = new System.Drawing.Size(30, 17);
+            this.lPos4.TabIndex = 513;
+            this.lPos4.Text = "4";
+            // 
+            // lPos5
+            // 
+            this.lPos5.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos5.Location = new System.Drawing.Point(300, 300);
+            this.lPos5.Name = "lPos5";
+            this.lPos5.Size = new System.Drawing.Size(30, 17);
+            this.lPos5.TabIndex = 514;
+            this.lPos5.Text = "1";
+            // 
+            // lPos6
+            // 
+            this.lPos6.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos6.Location = new System.Drawing.Point(300, 317);
+            this.lPos6.Name = "lPos6";
+            this.lPos6.Size = new System.Drawing.Size(30, 17);
+            this.lPos6.TabIndex = 515;
+            this.lPos6.Text = "2";
+            // 
+            // lPos7
+            // 
+            this.lPos7.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos7.Location = new System.Drawing.Point(300, 334);
+            this.lPos7.Name = "lPos7";
+            this.lPos7.Size = new System.Drawing.Size(30, 17);
+            this.lPos7.TabIndex = 516;
+            this.lPos7.Text = "3";
+            // 
+            // lPos8
+            // 
+            this.lPos8.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos8.Location = new System.Drawing.Point(300, 351);
+            this.lPos8.Name = "lPos8";
+            this.lPos8.Size = new System.Drawing.Size(30, 17);
+            this.lPos8.TabIndex = 517;
+            this.lPos8.Text = "4";
+            // 
+            // lPos9
+            // 
+            this.lPos9.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos9.Location = new System.Drawing.Point(300, 368);
+            this.lPos9.Name = "lPos9";
+            this.lPos9.Size = new System.Drawing.Size(30, 17);
+            this.lPos9.TabIndex = 518;
+            this.lPos9.Text = "1";
+            // 
+            // lFila11
+            // 
+            this.lFila11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila11.Location = new System.Drawing.Point(271, 402);
+            this.lFila11.Name = "lFila11";
+            this.lFila11.Size = new System.Drawing.Size(30, 17);
+            this.lFila11.TabIndex = 519;
+            this.lFila11.Text = "3";
+            // 
+            // lFila12
+            // 
+            this.lFila12.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila12.Location = new System.Drawing.Point(271, 419);
+            this.lFila12.Name = "lFila12";
+            this.lFila12.Size = new System.Drawing.Size(30, 17);
+            this.lFila12.TabIndex = 520;
+            this.lFila12.Text = "3";
+            // 
+            // lFila13
+            // 
+            this.lFila13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila13.Location = new System.Drawing.Point(271, 436);
+            this.lFila13.Name = "lFila13";
+            this.lFila13.Size = new System.Drawing.Size(30, 17);
+            this.lFila13.TabIndex = 521;
+            this.lFila13.Text = "4";
+            // 
+            // lFila14
+            // 
+            this.lFila14.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila14.Location = new System.Drawing.Point(271, 453);
+            this.lFila14.Name = "lFila14";
+            this.lFila14.Size = new System.Drawing.Size(30, 17);
+            this.lFila14.TabIndex = 522;
+            this.lFila14.Text = "4";
+            // 
+            // lFila15
+            // 
+            this.lFila15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila15.Location = new System.Drawing.Point(271, 470);
+            this.lFila15.Name = "lFila15";
+            this.lFila15.Size = new System.Drawing.Size(30, 17);
+            this.lFila15.TabIndex = 523;
+            this.lFila15.Text = "4";
+            // 
+            // lFila16
+            // 
+            this.lFila16.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila16.Location = new System.Drawing.Point(271, 487);
+            this.lFila16.Name = "lFila16";
+            this.lFila16.Size = new System.Drawing.Size(30, 17);
+            this.lFila16.TabIndex = 524;
+            this.lFila16.Text = "4";
+            // 
+            // lFila17
+            // 
+            this.lFila17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila17.Location = new System.Drawing.Point(271, 504);
+            this.lFila17.Name = "lFila17";
+            this.lFila17.Size = new System.Drawing.Size(30, 17);
+            this.lFila17.TabIndex = 525;
+            this.lFila17.Text = "5";
+            // 
+            // lFila18
+            // 
+            this.lFila18.BackColor = System.Drawing.Color.LightBlue;
+            this.lFila18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila18.Location = new System.Drawing.Point(271, 521);
+            this.lFila18.Name = "lFila18";
+            this.lFila18.Size = new System.Drawing.Size(30, 17);
+            this.lFila18.TabIndex = 526;
+            this.lFila18.Text = "5";
+            // 
+            // lFila19
+            // 
+            this.lFila19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lFila19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lFila19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lFila19.Location = new System.Drawing.Point(271, 538);
+            this.lFila19.Name = "lFila19";
+            this.lFila19.Size = new System.Drawing.Size(30, 17);
+            this.lFila19.TabIndex = 527;
+            this.lFila19.Text = "5";
+            // 
+            // lPos10
+            // 
+            this.lPos10.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos10.Location = new System.Drawing.Point(300, 385);
+            this.lPos10.Name = "lPos10";
+            this.lPos10.Size = new System.Drawing.Size(30, 17);
+            this.lPos10.TabIndex = 529;
+            this.lPos10.Text = "2";
+            // 
+            // lPos11
+            // 
+            this.lPos11.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos11.Location = new System.Drawing.Point(300, 402);
+            this.lPos11.Name = "lPos11";
+            this.lPos11.Size = new System.Drawing.Size(30, 17);
+            this.lPos11.TabIndex = 530;
+            this.lPos11.Text = "3";
+            // 
+            // lPos12
+            // 
+            this.lPos12.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos12.Location = new System.Drawing.Point(300, 419);
+            this.lPos12.Name = "lPos12";
+            this.lPos12.Size = new System.Drawing.Size(30, 17);
+            this.lPos12.TabIndex = 531;
+            this.lPos12.Text = "4";
+            // 
+            // lPos13
+            // 
+            this.lPos13.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos13.Location = new System.Drawing.Point(300, 436);
+            this.lPos13.Name = "lPos13";
+            this.lPos13.Size = new System.Drawing.Size(30, 17);
+            this.lPos13.TabIndex = 528;
+            this.lPos13.Text = "1";
+            // 
+            // lPos14
+            // 
+            this.lPos14.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos14.Location = new System.Drawing.Point(300, 453);
+            this.lPos14.Name = "lPos14";
+            this.lPos14.Size = new System.Drawing.Size(30, 17);
+            this.lPos14.TabIndex = 532;
+            this.lPos14.Text = "2";
+            // 
+            // lPos15
+            // 
+            this.lPos15.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos15.Location = new System.Drawing.Point(300, 470);
+            this.lPos15.Name = "lPos15";
+            this.lPos15.Size = new System.Drawing.Size(30, 17);
+            this.lPos15.TabIndex = 533;
+            this.lPos15.Text = "3";
+            // 
+            // lPos16
+            // 
+            this.lPos16.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos16.Location = new System.Drawing.Point(300, 487);
+            this.lPos16.Name = "lPos16";
+            this.lPos16.Size = new System.Drawing.Size(30, 17);
+            this.lPos16.TabIndex = 534;
+            this.lPos16.Text = "4";
+            // 
+            // lPos17
+            // 
+            this.lPos17.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos17.Location = new System.Drawing.Point(300, 504);
+            this.lPos17.Name = "lPos17";
+            this.lPos17.Size = new System.Drawing.Size(30, 17);
+            this.lPos17.TabIndex = 535;
+            this.lPos17.Text = "1";
+            // 
+            // lPos18
+            // 
+            this.lPos18.BackColor = System.Drawing.Color.LightBlue;
+            this.lPos18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos18.Location = new System.Drawing.Point(300, 521);
+            this.lPos18.Name = "lPos18";
+            this.lPos18.Size = new System.Drawing.Size(30, 17);
+            this.lPos18.TabIndex = 536;
+            this.lPos18.Text = "2";
+            // 
+            // lPos19
+            // 
+            this.lPos19.BackColor = System.Drawing.Color.SkyBlue;
+            this.lPos19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lPos19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lPos19.Location = new System.Drawing.Point(300, 538);
+            this.lPos19.Name = "lPos19";
+            this.lPos19.Size = new System.Drawing.Size(30, 17);
+            this.lPos19.TabIndex = 537;
+            this.lPos19.Text = "3";
+            // 
+            // fCarroElecPlusTabla
+            // 
+            this.fCarroElecPlusTabla.BackColor = System.Drawing.Color.SkyBlue;
+            this.fCarroElecPlusTabla.Location = new System.Drawing.Point(12, 218);
+            this.fCarroElecPlusTabla.Name = "fCarroElecPlusTabla";
+            this.fCarroElecPlusTabla.Size = new System.Drawing.Size(240, 350);
+            this.fCarroElecPlusTabla.TabIndex = 541;
+            // 
+            // fCarroElecTabla
+            // 
+            this.fCarroElecTabla.BackColor = System.Drawing.Color.SkyBlue;
+            this.fCarroElecTabla.Location = new System.Drawing.Point(12, 218);
+            this.fCarroElecTabla.Name = "fCarroElecTabla";
+            this.fCarroElecTabla.Size = new System.Drawing.Size(240, 350);
+            this.fCarroElecTabla.TabIndex = 540;
+            this.fCarroElecTabla.Visible = false;
+            // 
+            // fCarroTabla
+            // 
+            this.fCarroTabla.BackColor = System.Drawing.Color.SkyBlue;
+            this.fCarroTabla.Location = new System.Drawing.Point(12, 218);
+            this.fCarroTabla.Name = "fCarroTabla";
+            this.fCarroTabla.Size = new System.Drawing.Size(240, 350);
+            this.fCarroTabla.TabIndex = 391;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GrayText;
+            this.ClientSize = new System.Drawing.Size(1584, 722);
+            this.Controls.Add(this.fCarroElecPlusTabla);
+            this.Controls.Add(this.fCarroElecTabla);
+            this.Controls.Add(this.lFila20);
+            this.Controls.Add(this.lPos20);
+            this.Controls.Add(this.label36);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.lFila1);
+            this.Controls.Add(this.lPos1);
+            this.Controls.Add(this.lFila2);
+            this.Controls.Add(this.lFila3);
+            this.Controls.Add(this.lFila4);
+            this.Controls.Add(this.lFila7);
+            this.Controls.Add(this.lPos2);
+            this.Controls.Add(this.lFila5);
+            this.Controls.Add(this.lFila6);
+            this.Controls.Add(this.lFila8);
+            this.Controls.Add(this.lFila9);
+            this.Controls.Add(this.lFila10);
+            this.Controls.Add(this.lPos3);
+            this.Controls.Add(this.lPos4);
+            this.Controls.Add(this.lPos5);
+            this.Controls.Add(this.lPos6);
+            this.Controls.Add(this.lPos7);
+            this.Controls.Add(this.lPos8);
+            this.Controls.Add(this.lPos9);
+            this.Controls.Add(this.lFila11);
+            this.Controls.Add(this.lFila12);
+            this.Controls.Add(this.lFila13);
+            this.Controls.Add(this.lFila14);
+            this.Controls.Add(this.lFila15);
+            this.Controls.Add(this.lFila16);
+            this.Controls.Add(this.lFila17);
+            this.Controls.Add(this.lFila18);
+            this.Controls.Add(this.lFila19);
+            this.Controls.Add(this.lPos10);
+            this.Controls.Add(this.lPos11);
+            this.Controls.Add(this.lPos12);
+            this.Controls.Add(this.lPos13);
+            this.Controls.Add(this.lPos14);
+            this.Controls.Add(this.lPos15);
+            this.Controls.Add(this.lPos16);
+            this.Controls.Add(this.lPos17);
+            this.Controls.Add(this.lPos18);
+            this.Controls.Add(this.lPos19);
+            this.Controls.Add(this.lRestante20);
+            this.Controls.Add(this.lN20);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.lRestante1);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.lN1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lNSerie1);
+            this.Controls.Add(this.lEstado1);
+            this.Controls.Add(this.lInfo1);
+            this.Controls.Add(this.lNSerie2);
+            this.Controls.Add(this.lNSerie3);
+            this.Controls.Add(this.lNSerie4);
+            this.Controls.Add(this.lNSerie5);
+            this.Controls.Add(this.lNSerie6);
+            this.Controls.Add(this.lNSerie7);
+            this.Controls.Add(this.lNSerie8);
+            this.Controls.Add(this.lNSerie9);
+            this.Controls.Add(this.lNSerie10);
+            this.Controls.Add(this.lNSerie11);
+            this.Controls.Add(this.lNSerie12);
+            this.Controls.Add(this.lNSerie13);
+            this.Controls.Add(this.lNSerie14);
+            this.Controls.Add(this.lNSerie15);
+            this.Controls.Add(this.lNSerie16);
+            this.Controls.Add(this.lNSerie17);
+            this.Controls.Add(this.lNSerie18);
+            this.Controls.Add(this.lNSerie19);
+            this.Controls.Add(this.lNSerie20);
+            this.Controls.Add(this.lN2);
+            this.Controls.Add(this.lN3);
+            this.Controls.Add(this.lN4);
+            this.Controls.Add(this.lN5);
+            this.Controls.Add(this.lN6);
+            this.Controls.Add(this.lN7);
+            this.Controls.Add(this.lN8);
+            this.Controls.Add(this.lN9);
+            this.Controls.Add(this.lN10);
+            this.Controls.Add(this.lN11);
+            this.Controls.Add(this.lN12);
+            this.Controls.Add(this.lN13);
+            this.Controls.Add(this.lN14);
+            this.Controls.Add(this.lN15);
+            this.Controls.Add(this.lN17);
+            this.Controls.Add(this.lN16);
+            this.Controls.Add(this.lN18);
+            this.Controls.Add(this.lN19);
+            this.Controls.Add(this.lRestante2);
+            this.Controls.Add(this.lRestante3);
+            this.Controls.Add(this.lRestante4);
+            this.Controls.Add(this.lRestante5);
+            this.Controls.Add(this.lRestante6);
+            this.Controls.Add(this.lRestante7);
+            this.Controls.Add(this.lRestante8);
+            this.Controls.Add(this.lRestante9);
+            this.Controls.Add(this.lRestante10);
+            this.Controls.Add(this.lRestante11);
+            this.Controls.Add(this.lRestante12);
+            this.Controls.Add(this.lRestante13);
+            this.Controls.Add(this.lRestante14);
+            this.Controls.Add(this.lRestante15);
+            this.Controls.Add(this.lRestante16);
+            this.Controls.Add(this.lRestante17);
+            this.Controls.Add(this.lRestante18);
+            this.Controls.Add(this.lRestante19);
+            this.Controls.Add(this.lEstado2);
+            this.Controls.Add(this.lEstado3);
+            this.Controls.Add(this.lEstado4);
+            this.Controls.Add(this.lEstado5);
+            this.Controls.Add(this.lEstado6);
+            this.Controls.Add(this.lEstado7);
+            this.Controls.Add(this.lEstado8);
+            this.Controls.Add(this.lEstado9);
+            this.Controls.Add(this.lEstado10);
+            this.Controls.Add(this.lEstado11);
+            this.Controls.Add(this.lEstado12);
+            this.Controls.Add(this.lEstado13);
+            this.Controls.Add(this.lEstado14);
+            this.Controls.Add(this.lEstado15);
+            this.Controls.Add(this.lEstado16);
+            this.Controls.Add(this.lEstado17);
+            this.Controls.Add(this.lEstado18);
+            this.Controls.Add(this.lEstado19);
+            this.Controls.Add(this.lEstado20);
+            this.Controls.Add(this.lInfo2);
+            this.Controls.Add(this.lInfo3);
+            this.Controls.Add(this.lInfo4);
+            this.Controls.Add(this.lInfo5);
+            this.Controls.Add(this.lInfo6);
+            this.Controls.Add(this.lInfo7);
+            this.Controls.Add(this.lInfo8);
+            this.Controls.Add(this.lInfo9);
+            this.Controls.Add(this.lInfo10);
+            this.Controls.Add(this.lInfo11);
+            this.Controls.Add(this.lInfo12);
+            this.Controls.Add(this.lInfo13);
+            this.Controls.Add(this.lInfo14);
+            this.Controls.Add(this.lInfo15);
+            this.Controls.Add(this.lInfo16);
+            this.Controls.Add(this.lInfo17);
+            this.Controls.Add(this.lInfo18);
+            this.Controls.Add(this.lInfo19);
+            this.Controls.Add(this.lInfo20);
+            this.Controls.Add(this.fCarroTabla);
+            this.Controls.Add(this.lWarning);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.rBitacora);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.tOP);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Zero);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tBarcode);
+            this.Controls.Add(this.label70);
+            this.Controls.Add(this.label69);
+            this.Controls.Add(this.lXY);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1600, 1024);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Test Burnin v2.4.2";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lXY;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.ToolStripMenuItem holallaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem holaToolStripMenuItem;
+        private System.Windows.Forms.TextBox tBarcode;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Zero;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label tOP;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox rBitacora;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label lWarning;
+        private System.Windows.Forms.Label lRestante20;
+        private System.Windows.Forms.Label lN20;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lRestante1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lN1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lNSerie1;
+        private System.Windows.Forms.Label lEstado1;
+        private System.Windows.Forms.Label lInfo1;
+        private System.Windows.Forms.Label lNSerie2;
+        private System.Windows.Forms.Label lNSerie3;
+        private System.Windows.Forms.Label lNSerie4;
+        private System.Windows.Forms.Label lNSerie5;
+        private System.Windows.Forms.Label lNSerie6;
+        private System.Windows.Forms.Label lNSerie7;
+        private System.Windows.Forms.Label lNSerie8;
+        private System.Windows.Forms.Label lNSerie9;
+        private System.Windows.Forms.Label lNSerie10;
+        private System.Windows.Forms.Label lNSerie11;
+        private System.Windows.Forms.Label lNSerie12;
+        private System.Windows.Forms.Label lNSerie13;
+        private System.Windows.Forms.Label lNSerie14;
+        private System.Windows.Forms.Label lNSerie15;
+        private System.Windows.Forms.Label lNSerie16;
+        private System.Windows.Forms.Label lNSerie17;
+        private System.Windows.Forms.Label lNSerie18;
+        private System.Windows.Forms.Label lNSerie19;
+        private System.Windows.Forms.Label lNSerie20;
+        private System.Windows.Forms.Label lN2;
+        private System.Windows.Forms.Label lN3;
+        private System.Windows.Forms.Label lN4;
+        private System.Windows.Forms.Label lN5;
+        private System.Windows.Forms.Label lN6;
+        private System.Windows.Forms.Label lN7;
+        private System.Windows.Forms.Label lN8;
+        private System.Windows.Forms.Label lN9;
+        private System.Windows.Forms.Label lN10;
+        private System.Windows.Forms.Label lN11;
+        private System.Windows.Forms.Label lN12;
+        private System.Windows.Forms.Label lN13;
+        private System.Windows.Forms.Label lN14;
+        private System.Windows.Forms.Label lN15;
+        private System.Windows.Forms.Label lN17;
+        private System.Windows.Forms.Label lN16;
+        private System.Windows.Forms.Label lN18;
+        private System.Windows.Forms.Label lN19;
+        private System.Windows.Forms.Label lRestante2;
+        private System.Windows.Forms.Label lRestante3;
+        private System.Windows.Forms.Label lRestante4;
+        private System.Windows.Forms.Label lRestante5;
+        private System.Windows.Forms.Label lRestante6;
+        private System.Windows.Forms.Label lRestante7;
+        private System.Windows.Forms.Label lRestante8;
+        private System.Windows.Forms.Label lRestante9;
+        private System.Windows.Forms.Label lRestante10;
+        private System.Windows.Forms.Label lRestante11;
+        private System.Windows.Forms.Label lRestante12;
+        private System.Windows.Forms.Label lRestante13;
+        private System.Windows.Forms.Label lRestante14;
+        private System.Windows.Forms.Label lRestante15;
+        private System.Windows.Forms.Label lRestante16;
+        private System.Windows.Forms.Label lRestante17;
+        private System.Windows.Forms.Label lRestante18;
+        private System.Windows.Forms.Label lRestante19;
+        private System.Windows.Forms.Label lEstado2;
+        private System.Windows.Forms.Label lEstado3;
+        private System.Windows.Forms.Label lEstado4;
+        private System.Windows.Forms.Label lEstado5;
+        private System.Windows.Forms.Label lEstado6;
+        private System.Windows.Forms.Label lEstado7;
+        private System.Windows.Forms.Label lEstado8;
+        private System.Windows.Forms.Label lEstado9;
+        private System.Windows.Forms.Label lEstado10;
+        private System.Windows.Forms.Label lEstado11;
+        private System.Windows.Forms.Label lEstado12;
+        private System.Windows.Forms.Label lEstado13;
+        private System.Windows.Forms.Label lEstado14;
+        private System.Windows.Forms.Label lEstado15;
+        private System.Windows.Forms.Label lEstado16;
+        private System.Windows.Forms.Label lEstado17;
+        private System.Windows.Forms.Label lEstado18;
+        private System.Windows.Forms.Label lEstado19;
+        private System.Windows.Forms.Label lEstado20;
+        private System.Windows.Forms.Label lInfo2;
+        private System.Windows.Forms.Label lInfo3;
+        private System.Windows.Forms.Label lInfo4;
+        private System.Windows.Forms.Label lInfo5;
+        private System.Windows.Forms.Label lInfo6;
+        private System.Windows.Forms.Label lInfo7;
+        private System.Windows.Forms.Label lInfo8;
+        private System.Windows.Forms.Label lInfo9;
+        private System.Windows.Forms.Label lInfo10;
+        private System.Windows.Forms.Label lInfo11;
+        private System.Windows.Forms.Label lInfo12;
+        private System.Windows.Forms.Label lInfo13;
+        private System.Windows.Forms.Label lInfo14;
+        private System.Windows.Forms.Label lInfo15;
+        private System.Windows.Forms.Label lInfo16;
+        private System.Windows.Forms.Label lInfo17;
+        private System.Windows.Forms.Label lInfo18;
+        private System.Windows.Forms.Label lInfo19;
+        private System.Windows.Forms.Label lInfo20;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lFila20;
+        private System.Windows.Forms.Label lPos20;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lFila1;
+        private System.Windows.Forms.Label lPos1;
+        private System.Windows.Forms.Label lFila2;
+        private System.Windows.Forms.Label lFila3;
+        private System.Windows.Forms.Label lFila4;
+        private System.Windows.Forms.Label lFila7;
+        private System.Windows.Forms.Label lPos2;
+        private System.Windows.Forms.Label lFila5;
+        private System.Windows.Forms.Label lFila6;
+        private System.Windows.Forms.Label lFila8;
+        private System.Windows.Forms.Label lFila9;
+        private System.Windows.Forms.Label lFila10;
+        private System.Windows.Forms.Label lPos3;
+        private System.Windows.Forms.Label lPos4;
+        private System.Windows.Forms.Label lPos5;
+        private System.Windows.Forms.Label lPos6;
+        private System.Windows.Forms.Label lPos7;
+        private System.Windows.Forms.Label lPos8;
+        private System.Windows.Forms.Label lPos9;
+        private System.Windows.Forms.Label lFila11;
+        private System.Windows.Forms.Label lFila12;
+        private System.Windows.Forms.Label lFila13;
+        private System.Windows.Forms.Label lFila14;
+        private System.Windows.Forms.Label lFila15;
+        private System.Windows.Forms.Label lFila16;
+        private System.Windows.Forms.Label lFila17;
+        private System.Windows.Forms.Label lFila18;
+        private System.Windows.Forms.Label lFila19;
+        private System.Windows.Forms.Label lPos10;
+        private System.Windows.Forms.Label lPos11;
+        private System.Windows.Forms.Label lPos12;
+        private System.Windows.Forms.Label lPos13;
+        private System.Windows.Forms.Label lPos14;
+        private System.Windows.Forms.Label lPos15;
+        private System.Windows.Forms.Label lPos16;
+        private System.Windows.Forms.Label lPos17;
+        private System.Windows.Forms.Label lPos18;
+        private System.Windows.Forms.Label lPos19;
+        public FCarro fCarroTabla;
+        private FCarroElec fCarroElecTabla;
+        private FCarroElecPlus fCarroElecPlusTabla;
+    }
+}
+

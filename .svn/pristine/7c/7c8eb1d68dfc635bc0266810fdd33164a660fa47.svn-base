@@ -1,0 +1,201 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+
+namespace Test_Burning.Classes
+{    
+    public class Burning
+    {
+        public const string JSON_PATH = Form1.PATH + "VolcadoMemoria.json";
+        public const string JSON_BAK_PATH = Form1.PATH + "VolcadoMemoriaBAK.json";
+        public const string JSON_LAYOUT_PATH = Form1.PATH + "VolcadoMemoriaLayout.json";
+        public const string JSON_BAK_LAYOUT_PATH = Form1.PATH + "VolcadoMemoriaBAKLayout.json";
+        public List<Pieza> listLote;
+        public Dictionary<char, byte> dDistribucionCarros;
+
+        public Burning()
+        {
+            listLote = new List<Pieza>();
+            Layout mLayout = new Layout();
+            dDistribucionCarros = mLayout.dDistribucionCarros;
+        }
+
+        public void recuperarTest() 
+        {
+            //List<Pieza> lLote;
+            try
+            {               
+                string sJson = ""; ;
+                StreamReader sr = new StreamReader(JSON_BAK_PATH);
+                while (sr.Peek() != -1)
+                {
+                    sJson += sr.ReadLine();
+                }
+                sr.Close();
+
+                listLote = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Pieza>>(sJson);    
+                if (listLote == null)
+                {
+                    listLote.Count(); //Esto es para que dispare la excepcion en caso de estar vacio
+                }
+            }
+            catch
+            {
+                try
+                {
+                    string sJson = ""; ;
+                    StreamReader sr = new StreamReader(JSON_PATH);
+                    while (sr.Peek() != -1)
+                    {
+                        sJson += sr.ReadLine();
+                    }
+                    sr.Close();
+
+                    listLote = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Pieza>>(sJson);
+                }
+                catch 
+                {
+                    using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_BAK_PATH, true)) { }
+                    using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_PATH, true)) { }
+                }
+            }
+        }
+
+        public void recuperarCarros()
+        {
+            //List<Pieza> lLote;
+            try
+            {
+                string sJson = ""; ;
+                StreamReader sr = new StreamReader(JSON_BAK_LAYOUT_PATH);
+                while (sr.Peek() != -1)
+                {
+                    sJson += sr.ReadLine();
+                }
+                sr.Close();
+
+                dDistribucionCarros = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<char, byte>>(sJson);
+                if (dDistribucionCarros == null)
+                {
+                    dDistribucionCarros.Count(); //Esto es para que dispare la excepcion en caso de estar vacio
+                }
+            }
+            catch
+            {
+                try
+                {
+                    string sJson = ""; ;
+                    StreamReader sr = new StreamReader(JSON_LAYOUT_PATH);
+                    while (sr.Peek() != -1)
+                    {
+                        sJson += sr.ReadLine();
+                    }
+                    sr.Close();
+
+                    dDistribucionCarros = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<char, byte>>(sJson);
+                }
+                catch
+                {
+                    using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_BAK_LAYOUT_PATH, true)) {}
+                    using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_LAYOUT_PATH, true)) {}
+                }
+            }
+        }
+
+        public void grabarEstado()
+        {
+            try
+            {
+                //Primero  se copia el archivo original en el Bakup por si se corrompe el archivo
+            FileStream fsBAK = new FileStream(JSON_BAK_PATH, FileMode.Create, FileAccess.Write);
+            fsBAK.Close();            
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_BAK_PATH, true))
+            {
+                StreamReader sr = new StreamReader(JSON_PATH);
+                while (sr.Peek() != -1)
+                {
+                    file.WriteLine(sr.ReadLine());
+                }
+                sr.Close();
+            }
+            string sEstado = Newtonsoft.Json.JsonConvert.SerializeObject(listLote, Newtonsoft.Json.Formatting.Indented); //El formato identado es opcional pero es mas visible
+            FileStream fs = new FileStream(JSON_PATH, FileMode.Create, FileAccess.Write);
+            fs.Close();
+            //Añade las siguientes lineas al archivo de trazabilidad
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_PATH, true))
+            {
+                file.Write(sEstado);
+            }
+
+            
+            //Primero  se copia el archivo original en el Bakup del Layout por si se corrompe el archivo
+            FileStream fsBAKLayout = new FileStream(JSON_BAK_LAYOUT_PATH, FileMode.Create, FileAccess.Write);
+            fsBAKLayout.Close();
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_BAK_LAYOUT_PATH, true))
+            {
+                StreamReader sr = new StreamReader(JSON_LAYOUT_PATH);
+                while (sr.Peek() != -1)
+                {
+                    file.WriteLine(sr.ReadLine());
+                }
+                sr.Close();
+            }
+            string sCarros = Newtonsoft.Json.JsonConvert.SerializeObject(dDistribucionCarros, Newtonsoft.Json.Formatting.Indented); //El formato identado es opcional pero es mas visible
+            FileStream fs2 = new FileStream(JSON_LAYOUT_PATH, FileMode.Create, FileAccess.Write);
+            fs2.Close();
+            //Añade las siguientes lineas al archivo de trazabilidad
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(JSON_LAYOUT_PATH, true))
+            {
+                file.Write(sCarros);
+            }
+            }
+            catch (Exception)
+            {
+                
+                //throw;
+            }
+
+        }        
+
+        public bool añadirCarroLayout(char lay, byte carro)
+        {
+            byte CarroActual = dDistribucionCarros[lay];
+            if (this.dDistribucionCarros.ContainsValue(carro))
+                return false;
+            if(CarroActual != 0)
+                return false;
+            this.dDistribucionCarros[lay] = carro;
+            
+            return true;
+        }
+
+        public void eliminarCarroLayout(char lay)
+        {
+
+        }
+
+        public bool CompruebaPresenciaCarro(byte posicion)
+        {
+            byte bCarro = numCarro(posicion);
+            if (this.dDistribucionCarros.ContainsValue(bCarro))
+                return true;
+            else
+                return false;
+        }
+                
+        private byte numCarro(byte posicion)
+        {
+            byte bCarro = Convert.ToByte((posicion + 19) / 20);
+            return bCarro;
+        }
+
+        public static byte numeroCarro(byte posicion)
+        {
+            byte bCarro = Convert.ToByte((posicion + 19) / 20);
+            return bCarro;
+        }
+
+    }
+}

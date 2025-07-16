@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62895ADD-C1B8-489F-867F-3BF42352D296}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test_Burning</RootNamespace>
+    <AssemblyName>TestBurning</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Fasticon-Action-Circles-Circle-fire.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json.Net20">
+      <HintPath>Dll\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.0.5813.39032, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\NUnit.org\framework\3.0.5813.39031\net-4.0\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunitlite, Version=3.0.5813.39033, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\NUnit.org\framework\3.0.5813.39031\net-4.0\nunitlite.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Carros.cs" />
+    <Compile Include="Classes\BusSerieTCP.cs" />
+    <Compile Include="Classes\Date_Time.cs" />
+    <Compile Include="Classes\GestorConexiones.cs" />
+    <Compile Include="Classes\Layout.cs" />
+    <Compile Include="Classes\StateObject.cs" />
+    <Compile Include="Classes\TestBoardTCP.cs" />
+    <Compile Include="Classes\Trazabilidad.cs" />
+    <Compile Include="FCarroElecPlusMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FCarroElecPlusMini.Designer.cs">
+      <DependentUpon>FCarroElecPlusMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCarroElecPlus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FCarroElecPlus.Designer.cs">
+      <DependentUpon>FCarroElecPlus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCarroElec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FCarroElec.Designer.cs">
+      <DependentUpon>FCarroElec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCarroElecMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FCarroElecMini.Designer.cs">
+      <DependentUpon>FCarroElecMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FCarroMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FCarroMini.Designer.cs">
+      <DependentUpon>FCarroMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AnalizadorCVM-B100.cs" />
+    <Compile Include="Classes\Barcodes.cs" />
+    <Compile Include="Classes\Burning.cs" />
+    <Compile Include="Classes\Enums.cs" />
+    <Compile Include="Classes\IniManager.cs" />
+    <Compile Include="Classes\Pieza.cs" />
+    <Compile Include="Classes\Xml.cs" />
+    <Compile Include="FCarro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FCarro.Designer.cs">
+      <DependentUpon>FCarro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMantenimiento.Designer.cs">
+      <DependentUpon>FMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDisplay.Designer.cs">
+      <DependentUpon>FormDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RealCarroElecPlusMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RealCarroElecPlusMini.Designer.cs">
+      <DependentUpon>RealCarroElecPlusMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealCarroElecMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RealCarroElecMini.Designer.cs">
+      <DependentUpon>RealCarroElecMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealCarroElecPlusXL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RealCarroElecPlusXL.Designer.cs">
+      <DependentUpon>RealCarroElecPlusXL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealCarroElecXL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RealCarroElecXL.Designer.cs">
+      <DependentUpon>RealCarroElecXL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealCarroMini.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RealCarroMini.Designer.cs">
+      <DependentUpon>RealCarroMini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RealCarroXL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RealCarroXL.Designer.cs">
+      <DependentUpon>RealCarroXL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FCarroElecPlusMini.resx">
+      <DependentUpon>FCarroElecPlusMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCarroElecPlus.resx">
+      <DependentUpon>FCarroElecPlus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCarroElec.resx">
+      <DependentUpon>FCarroElec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCarroElecMini.resx">
+      <DependentUpon>FCarroElecMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCarroMini.resx">
+      <DependentUpon>FCarroMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCarro.resx">
+      <DependentUpon>FCarro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMantenimiento.resx">
+      <DependentUpon>FMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDisplay.resx">
+      <DependentUpon>FormDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCarroElecPlusMini.resx">
+      <DependentUpon>RealCarroElecPlusMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCarroElecMini.resx">
+      <DependentUpon>RealCarroElecMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCarroElecPlusXL.resx">
+      <DependentUpon>RealCarroElecPlusXL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCarroElecXL.resx">
+      <DependentUpon>RealCarroElecXL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCarroMini.resx">
+      <DependentUpon>RealCarroMini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RealCarroXL.resx">
+      <DependentUpon>RealCarroXL.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Iconos\Giel01GreenXL.png" />
+    <None Include="Iconos\Giel01RedXL.png" />
+    <None Include="Iconos\Giel01XL.png" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fasticon-Action-Circles-Circle-fire.ico" />
+    <Content Include="Iconos\barcode-icon.png" />
+    <Content Include="Iconos\cancel-icon.png" />
+    <None Include="Iconos\CarroXL.png" />
+    <None Include="Iconos\MotActGreenXL.png" />
+    <None Include="Iconos\MotActRedXL.png" />
+    <None Include="Iconos\MotActXL.png" />
+    <None Include="Iconos\MotRetro.png" />
+    <None Include="Iconos\MotRetroGreen.png" />
+    <None Include="Iconos\MotRetroGreenXL.png" />
+    <None Include="Iconos\MotRetroRed.png" />
+    <None Include="Iconos\MotRetroRedXL.png" />
+    <None Include="Iconos\MotRetroXL.png" />
+    <None Include="Iconos\MotVi_RED.png" />
+    <None Include="Iconos\MotVi-GREEN.png" />
+    <None Include="Iconos\MotAct.png" />
+    <None Include="Iconos\MotActGreen.png" />
+    <None Include="Iconos\MotActRed.png" />
+    <None Include="Iconos\MotVi.png" />
+    <None Include="Iconos\MotViGreenXL.png" />
+    <None Include="Iconos\MotViRedXL.png" />
+    <None Include="Iconos\MotViXL.png" />
+    <None Include="Iconos\MotViGreen.png" />
+    <None Include="Iconos\MotViRed.png" />
+    <None Include="Iconos\CarroMini.png" />
+    <None Include="Iconos\MiniMotACT.png" />
+    <None Include="Iconos\MiniMotActGreen.png" />
+    <None Include="Iconos\MiniMotActRed.png" />
+    <None Include="Iconos\MiniMotRetro.png" />
+    <None Include="Iconos\MiniMotRetroGreen.png" />
+    <None Include="Iconos\MiniMotRetroRed.png" />
+    <None Include="Iconos\MiniMotVi.png" />
+    <None Include="Iconos\MiniMotViGreen.png" />
+    <None Include="Iconos\MiniMotViRed.png" />
+    <None Include="Iconos\CarroElectronicasXL.png" />
+    <None Include="Iconos\CarroElecXL.png" />
+    <None Include="Iconos\CarroElecMini.png" />
+    <None Include="Iconos\MiniGiel01.png" />
+    <None Include="Iconos\MiniGiel01Green.png" />
+    <None Include="Iconos\MiniGiel01Red.png" />
+    <None Include="Iconos\FCarroElecMini.png" />
+    <None Include="Iconos\FCarroElec.png" />
+    <None Include="Iconos\FCarroElecPlus.png" />
+    <None Include="Iconos\FCarroElecPlusMini.png" />
+    <None Include="Iconos\FCarroElecPlusXL.png" />
+    <None Include="Iconos\FRealCarroElecPlusMini.png" />
+    <None Include="Iconos\MiniVisioPlus.png" />
+    <None Include="Iconos\MiniVisioPlusGreen.png" />
+    <None Include="Iconos\MiniVisioPlusRED.png" />
+    <Content Include="Iconos\Very-Basic-Cancel-icon.png" />
+    <None Include="Iconos\warning-icon-18px.png" />
+    <None Include="Iconos\VisioPlusXL.png" />
+    <None Include="Iconos\VisioPlusGreenXL.png" />
+    <None Include="Iconos\VisioPlusRedXL.png" />
+    <Content Include="Iconos\warning-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

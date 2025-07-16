@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Runtime.Serialization.Json;
+
+namespace Test_Burning.Classes
+{
+    public class Pieza 
+    {        
+        public Byte Posicion { get; set; }
+        public string Serial { get; set; }
+        public UInt16 Version { get; set; }
+        public UInt16 Ciclos { get; set; }
+        public UInt16 Minutos { get; set; }
+        public EstadosTestBoard eEstado { get; set; }
+        public Alarma eAlarma { get; set; }
+        public Resultado eResultado { get; set; }
+        public Familia eFamilia { get; set; }
+        public int Reintentos { get; set; }
+        public Byte eMaxReintentos { get; set; }
+
+        public Byte[] eNivelBateria = new Byte[101];// { get; set; }
+        public EstadosTest eEstadoTest { get; set; }
+        public string FechaInicio { get; set; }
+        public string HoraInicio { get; set; }
+        public string Path { get; set; }
+        // public char Layout { get; set; }
+
+
+        public static readonly Dictionary<Alarma, string> mensajesAlarma = new Dictionary<Alarma, string>
+        {
+            { Alarma.Comunicacion, "La pieza ha superado el máximo de reintentos de comunicación" },
+            { Alarma.Bloqueo, "La pieza no ha completado la maniobra, posible bloqueo" },
+            { Alarma.Antipanico, "La pieza no ha completado la apertura de antipánico" },
+            { Alarma.Parametros, "La pieza no ha grabado los parámetros introducidos" },
+            { Alarma.Tasa_Ciclos_Minuto, "La pieza ha hecho menos ciclos de los esperados" },
+            { Alarma.TBAM, "Valor incorrecto en parámetro TBAM" },
+            { Alarma.Desconocido, "Error desconocido, contacte con el responsable" }
+        };
+    }    
+
+
+}
